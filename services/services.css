@@ -1,0 +1,89 @@
+
+/* services/pages: Geotechnical Engineering, Environmental Engineering, Materials Testing & Special Inspection, Subsurface Exploration
+-------------------------------------------------------- */
+
+
+/* Subsurface Exploration
+-------------------------------------------------------- */
+
+
+div.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+div.background-1 {
+  background-color: #E8E6D9;
+  position: relative; 
+  top: -25px;
+  left: 15px;
+  margin: 20px auto;
+  max-width: 85%;
+  
+}
+div.background-2 {
+  background-color: #E8E6D9;
+  position: relative; 
+  top: -25px;
+  left: 15px;
+  margin: 20px auto;
+  max-width: 85%;
+  
+}
+
+article.img-sub { 
+  background-color: rgba( 147, 204, 240, 0.253 );
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 100%;
+  margin-top: 40px;
+  padding: 10px 10px 50px 50px;
+  position: relative; 
+  top: 35px;
+  left: -35px;
+}
+
+strong {
+  color: #0d2353;
+  padding-right: 3px;
+}
+
+.flex-container p {
+  margin: 0;
+  padding: 10px 10px 0 3px;
+}
+
+article.print {
+  background-color: #FFFFFF;
+/*  margin-top: 40px;*/
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+@media (min-width: 768px) {
+  
+  div.flex-container {
+    flex-direction: row;
+    margin-top: 40px;
+  }
+  
+  div.col {
+    max-width: 50%;
+  }
+  
+  article.print {
+  max-width: 85%;
+  margin: 0 auto;
+  }
+  
+}
+
+
+
+/* end
+-------------------------------------------------------- */
+
